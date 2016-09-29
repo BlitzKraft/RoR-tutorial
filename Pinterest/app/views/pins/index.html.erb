@@ -1,0 +1,5 @@
+<h1>Welcome to Pinterest clone</h1>
+
+<% @pins.each do |p| %>
+<h4><%=link_to p.title, pin_path(p) %></h4>
+<% end %>
