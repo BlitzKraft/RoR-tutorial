@@ -3,3 +3,5 @@
 <% @pins.each do |p| %>
 <h4><%=link_to p.title, pin_path(p) %></h4>
 <% end %>
+
+<p><%= link_to "New pin", new_pin_path %></p>
